@@ -1,0 +1,96 @@
+/*Задаём общие параметры для всей страницы: шрифт и отступы*/
+a{
+  text-decoration: none;
+}
+
+li {
+  
+ }
+
+ ::-webkit-scrollbar {
+  width: 10px; 
+  height: 8px; 
+  background-color: #6e98c7;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #0351f8;
+  border-radius: 9px;
+  box-shadow: inset 1px 1px 10px #0544f1;
+}
+  
+body {
+  text-align: center;
+  margin: 10;
+  
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+  background: rgb(161, 195, 247);
+}
+
+.todo__caption{
+font-family: Quintessential;
+color: rgb(24, 121, 0);
+}
+
+.container{
+  max-width: 576px;
+  margin: 0 auto;
+  border: 1px solid #050505;
+}
+
+.date{
+  display: flex;
+  overflow-x: scroll;
+  
+  
+  max-height:150px;
+ padding: 5px 1px;
+}
+.number{
+
+  margin: 5px 2px;
+  padding: 2px 1px;
+
+  border: 1px solid #050505;
+  border-radius: 6px;
+
+  color: black;
+  font-family:  Roboto, sans-serif;
+
+  background: rgb(191, 191, 240);
+  box-shadow: inset 1px 1px 10px #0544f1;
+}
+
+.number:hover{
+  box-shadow: inset 1px 1px 10px #001a63;
+}
+
+.tasks{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+
+.task{
+
+}
+
+.result{
+  padding: 0 15px;
+}
+
+.result__marker{
+  list-style-type: none; /* Убираем маркеры */
+  padding: 0;
+}
+
+.marker{
+  width: 20px;
+}
+
+footer{
+  background: rgb(145, 143, 143);
+  padding: 10px 0;
+}
