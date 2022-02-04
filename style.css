@@ -35,8 +35,9 @@ color: rgb(24, 121, 0);
 }
 
 .container{
+  height: 100%;
   max-width: 576px;
-  margin: 0 auto;
+  margin:  auto;
   border: 1px solid #050505;
 }
 
@@ -45,8 +46,8 @@ color: rgb(24, 121, 0);
   overflow-x: scroll;
   
   
-  max-height:150px;
- padding: 5px 1px;
+  /* max-height:150px; */
+  padding: 5px 1px;
 }
 .number{
 
@@ -73,10 +74,26 @@ color: rgb(24, 121, 0);
   padding: 10px 5px;
 }
 
-.task{
+.flex__text{
+  text-align: center;
+display: flex;
+justify-content: space-between;
+}
+
+.text__task{
+font-family: Roboto;
+padding-left: 10px;
 
 }
 
+input{
+  display: block;
+  margin-left: 10px;
+  border-radius: 5px;
+  outline: none;
+border: none;
+  
+}
 .result{
   padding: 0 15px;
 }
@@ -84,13 +101,20 @@ color: rgb(24, 121, 0);
 .result__marker{
   list-style-type: none; /* Убираем маркеры */
   padding: 0;
+  
 }
 
 .marker{
-  width: 20px;
+  
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
 }
 
 footer{
   background: rgb(145, 143, 143);
   padding: 10px 0;
+  bottom: 0;
+  margin: 100px auto 0;
+  
 }
